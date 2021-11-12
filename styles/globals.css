@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --Quick: "Quick";
+  --Red: #ff4b4b;
+  --Dark: #161616;
+  --D: #292929;
+  --Fira: "Fira";
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Fira";
+  src: url("./../public/fonts/Fira/FiraCode-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Quick";
+  src: url("./../public/fonts/QuickSand/Quicksand-VariableFont_wght.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 * {
-  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+  font-family: "Quick";
 }
