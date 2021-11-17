@@ -36,6 +36,9 @@
   font-size: 13px;
 }
 
+.resbtn {
+  display: none;
+}
 /**/
 @media (max-width: 813px) {
   .nav {
