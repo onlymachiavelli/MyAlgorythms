@@ -12,6 +12,10 @@ const Navbar = () =>{
                     </a>
                 </Link>
             </div>
+            &nbsp;
+            <div className={styles.resbtn} >
+                <button></button>
+            </div>
             <nav className={styles.nav}>
                 <Link href="">Home</Link>
                 <Link href="">DeskTop App</Link>

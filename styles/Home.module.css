@@ -42,14 +42,20 @@
     display: block;
     margin-left: 0px !important;
     margin-top: 20px;
+    width: 100%;
+    padding-top: 10px;
   }
   .navbar {
     display: block !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 30px !important;
     position: absolute;
   }
   .login {
     margin-top: 0px !important ;
-    top: 30px;
+    top: 25px;
+  }
+  .nav a {
+    display: block;
+    margin-left: 20px;
   }
 }
