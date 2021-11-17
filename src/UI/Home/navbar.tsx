@@ -14,10 +14,14 @@ const Navbar = () =>{
             </div>
             <nav className={styles.nav}>
                 <Link href="">Home</Link>
-                <Link href="">Home</Link>
-                <Link href="">Home</Link>
-                <Link href="">Home</Link>
+                <Link href="">DeskTop App</Link>
+                <Link href="">Android App</Link>
+                <Link href="">About</Link>
             </nav>
+
+            <div className={styles.login}>
+                <Link href="/">Login / SignUp</Link>
+            </div>
         </nav>
     )
 }

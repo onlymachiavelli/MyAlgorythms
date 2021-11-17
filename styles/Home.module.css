@@ -4,7 +4,28 @@
 .navbar {
   width: 100%;
   height: auto;
+  align-items: center;
   display: flex;
 
   background-color: var(--Dark);
+}
+
+.nav {
+  margin-left: 20px;
+}
+.nav a {
+  color: #fff;
+  padding: 10px;
+}
+
+.login {
+  position: absolute;
+  right: 20px;
+}
+
+.login a {
+  color: #fff;
+  background-color: var(--Red);
+  padding: 9px 30px 9px 30px;
+  border-radius: 50px;
 }
