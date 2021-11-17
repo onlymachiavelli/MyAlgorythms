@@ -1,17 +1,20 @@
 .logo {
-  margin-top: 3px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .navbar {
   width: 100%;
   height: auto;
   align-items: center;
   display: flex;
+  padding-bottom: 5px;
 
   background-color: var(--Dark);
 }
 
 .nav {
   margin-left: 20px;
+  margin-top: 5px;
 }
 .nav a {
   color: #fff;
@@ -21,11 +24,32 @@
 .login {
   position: absolute;
   right: 20px;
+  margin-top: 3px;
 }
 
 .login a {
   color: #fff;
   background-color: var(--Red);
-  padding: 9px 30px 9px 30px;
+  padding: 12px 30px 12px 30px;
   border-radius: 50px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/**/
+@media (max-width: 813px) {
+  .nav {
+    display: block;
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  .navbar {
+    display: block !important;
+    padding-bottom: 10px !important;
+    position: absolute;
+  }
+  .login {
+    margin-top: 0px !important ;
+    top: 30px;
+  }
 }
